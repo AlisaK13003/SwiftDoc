@@ -1,4 +1,4 @@
-const { fontFamily } = require(`tailwindcss/defaultTheme`)
+const { fontFamily } = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
 
 module.exports = {
@@ -22,11 +22,21 @@ module.exports = {
       inherit: 'inherit',
       transparent: 'transparent',
       current: 'currentColor',
-      black: '#000000',
+      black: '#040709',
+      black2: '#232321',
       white: '#ffffff',
       gray: colors.slate,
-      primary: colors.indigo,
-      secondary: colors.rose,
+      primary: {
+        DEFAULT: '#f79627',
+        400: '#fabc69',
+        600: '#f57c1b',
+      },
+      secondary: {
+        DEFAULT: '#61473d',
+        400: '#7e5a53',
+        500: '#694b44',
+        600: '#49332d',
+      },
       tertiary: colors.emerald,
     },
   },

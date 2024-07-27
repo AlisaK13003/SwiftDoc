@@ -51,8 +51,8 @@ function Illustration({ className }: { className?: string }) {
         <svg width="124" height="64" viewBox="0 0 124 64" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <linearGradient x1="0%" y1="50%" x2="114.418%" y2="50%" id="squares-1-a">
-              <stop stopColor="#6EFACC" offset="0%" />
-              <stop stopColor="#6EFACC" stopOpacity="0" offset="100%" />
+              <stop stopColor="#61473d" offset="0%" />
+              <stop stopColor="#61473d" stopOpacity="0" offset="100%" />
             </linearGradient>
           </defs>
           <path
@@ -69,12 +69,12 @@ function Illustration({ className }: { className?: string }) {
         <svg width="64" height="88" viewBox="0 0 64 88" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <linearGradient x1="0%" y1="50%" x2="114.418%" y2="50%" id="squares-2-a">
-              <stop stopColor="#6EFACC" offset="0%" />
-              <stop stopColor="#6EFACC" stopOpacity="0" offset="100%" />
+              <stop stopColor="#61473d" offset="0%" />
+              <stop stopColor="#61473d" stopOpacity="0" offset="100%" />
             </linearGradient>
           </defs>
           <path
-            d="M80 574h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4z"
+            d="M80 574h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4z"
             transform="rotate(90 359 279)"
             fill="url(#squares-2-a)"
             fillRule="evenodd"
@@ -97,8 +97,8 @@ function Illustration({ className }: { className?: string }) {
               id="ball-1-a"
             >
               <stop stopColor="#eef2ff" offset="0%" />
-              <stop stopColor="#c7d2fe" offset="34.827%" />
-              <stop stopColor="#818cf8" offset="100%" />
+              <stop stopColor="#fde4cc" offset="34.827%" />
+              <stop stopColor="#f79627" offset="100%" />
             </radialGradient>
           </defs>
           <circle cx="200" cy="200" r="200" fill="#ffffff" fillRule="evenodd" />
@@ -121,8 +121,8 @@ function Illustration({ className }: { className?: string }) {
               id="ball-2-a"
             >
               <stop stopColor="#eef2ff" offset="0%" />
-              <stop stopColor="#c7d2fe" offset="34.827%" />
-              <stop stopColor="#818cf8" offset="100%" />
+              <stop stopColor="#fde4cc" offset="34.827%" />
+              <stop stopColor="#f79627" offset="100%" />
             </radialGradient>
           </defs>
           <circle cx="100" cy="100" r="100" fill="#ffffff" fillRule="evenodd" />
@@ -171,38 +171,38 @@ function Illustration({ className }: { className?: string }) {
               </feMerge>
             </filter>
             <linearGradient x1="19.946%" y1="72.147%" x2="73.772%" y2="18.374%" id="browser-e">
-              <stop stopColor="#eef2ff" offset="0%" />
-              <stop stopColor="#c7d2fe" offset="100%" />
+              <stop stopColor="#fde4cc" offset="0%" />
+              <stop stopColor='#fabc69' offset="100%" />
             </linearGradient>
             <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="browser-f">
-              <stop stopColor="#c7d2fe" offset="0%" />
-              <stop stopColor="#818cf8" offset="100%" />
+              <stop stopColor="#f79627" offset="0%" />
+              <stop stopColor="#f79627" offset="100%" />
             </linearGradient>
             <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="browser-g">
-              <stop stopColor="#c7d2fe" offset="0%" />
-              <stop stopColor="#a5b4fc" offset="100%" />
+              <stop stopColor="#f79627" offset="0%" />
+              <stop stopColor="#f79627" offset="100%" />
             </linearGradient>
             <linearGradient x1="94.808%" y1="-15.701%" x2="6.924%" y2="82.567%" id="browser-h">
-              <stop stopColor="#6ee7b7" stopOpacity="0" offset="0%" />
-              <stop stopColor="#6ee7b7" offset="100%" />
+              <stop stopColor="#f79627" stopOpacity="0" offset="0%" />
+              <stop stopColor="#f79627" offset="100%" />
             </linearGradient>
             <linearGradient x1="1.733%" y1="-10.509%" y2="77.375%" id="browser-i">
-              <stop stopColor="#6EFACC" stopOpacity="0" offset="0%" />
-              <stop stopColor="#6EFACC" offset="100%" />
+              <stop stopColor="#f79627" stopOpacity="0" offset="0%" />
+              <stop stopColor="#f79627" offset="100%" />
             </linearGradient>
             <linearGradient x1="92.458%" y1="5.866%" x2="0%" y2="100%" id="browser-j">
-              <stop stopColor="#6ee7b7" offset="0%" />
-              <stop stopColor="#6ee7b7" stopOpacity="0" offset="100%" />
+              <stop stopColor="#f79627" offset="0%" />
+              <stop stopColor="#f79627" stopOpacity="0" offset="100%" />
             </linearGradient>
             <linearGradient x1="92.458%" y1="5.866%" x2="0%" y2="100%" id="browser-k">
-              <stop stopColor="#6ee7b7" stopOpacity="0" offset="0%" />
-              <stop stopColor="#6ee7b7" stopOpacity="0.513" offset="48.724%" />
-              <stop stopColor="#6ee7b7" stopOpacity="0" offset="100%" />
+              <stop stopColor="#f79627" stopOpacity="0" offset="0%" />
+              <stop stopColor="#f79627" stopOpacity="0.513" offset="48.724%" />
+              <stop stopColor="#f79627" stopOpacity="0" offset="100%" />
             </linearGradient>
             <linearGradient x1="92.458%" y1="5.866%" x2="0%" y2="100%" id="browser-l">
-              <stop stopColor="#6ee7b7" stopOpacity="0" offset="0%" />
-              <stop stopColor="#6ee7b7" stopOpacity="0.513" offset="47.494%" />
-              <stop stopColor="#6ee7b7" stopOpacity="0" offset="100%" />
+              <stop stopColor="#f79627" stopOpacity="0" offset="0%" />
+              <stop stopColor="#f79627" stopOpacity="0.513" offset="47.494%" />
+              <stop stopColor="#f79627" stopOpacity="0" offset="100%" />
             </linearGradient>
             <filter
               x="-23.1%"
@@ -225,11 +225,11 @@ function Illustration({ className }: { className?: string }) {
               </feMerge>
             </filter>
             <linearGradient x1="100%" y1="50%" x2="-57.904%" y2="50%" id="browser-n">
-              <stop stopColor="#c7d2fe" offset="0%" />
-              <stop stopColor="#818cf8" offset="100%" />
+              <stop stopColor="#fde4cc" offset="0%" />
+              <stop stopColor="#f79627" offset="100%" />
             </linearGradient>
             <filter
-              x="-500%"
+              x="500%"
               y="-500%"
               width="1000%"
               height="1000%"
@@ -239,7 +239,7 @@ function Illustration({ className }: { className?: string }) {
               <feOffset dy="16" in="SourceAlpha" result="shadowOffsetOuter" />
               <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter" result="shadowBlurOuter" />
               <feColorMatrix
-                values="0 0 0 0 0.10 0 0 0 0 0.17 0 0 0 0 0.21 0 0 0 0.22 0"
+                values="0 0 0 0 0.10 0 0 0 0 0.17 0 0 0 0 0.21 0 0 0 0 0.22 0"
                 in="shadowBlurOuter"
               />
             </filter>
@@ -325,8 +325,8 @@ function Illustration({ className }: { className?: string }) {
               id="ball-3-a"
             >
               <stop stopColor="#eef2ff" offset="0%" />
-              <stop stopColor="#c7d2fe" offset="34.827%" />
-              <stop stopColor="#818cf8" offset="100%" />
+              <stop stopColor="#fde4cc" offset="34.827%" />
+              <stop stopColor="#f79627" offset="100%" />
             </radialGradient>
           </defs>
           <circle cx="40" cy="40" r="40" fill="#ffffff" fillRule="evenodd" />
@@ -349,11 +349,11 @@ function Illustration({ className }: { className?: string }) {
               id="ball-4-a"
             >
               <stop stopColor="#eef2ff" offset="0%" />
-              <stop stopColor="#c7d2fe" offset="34.827%" />
-              <stop stopColor="#818cf8" offset="100%" />
+              <stop stopColor="#fde4cc" offset="34.827%" />
+              <stop stopColor="#f79627" offset="100%" />
             </radialGradient>
             <filter
-              x="-500%"
+              x="500%"
               y="-500%"
               width="1000%"
               height="1000%"
@@ -363,7 +363,7 @@ function Illustration({ className }: { className?: string }) {
               <feOffset dx="24" dy="24" in="SourceAlpha" result="shadowOffsetOuter" />
               <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter" result="shadowBlurOuter" />
               <feColorMatrix
-                values="0 0 0 0 0.10 0 0 0 0 0.17 0 0 0 0 0.21 0 0 0 0.22 0"
+                values="0 0 0 0 0.10 0 0 0 0 0.17 0 0 0 0 0.21 0 0 0 0 0.22 0"
                 in="shadowBlurOuter"
               />
             </filter>
@@ -395,11 +395,11 @@ function Illustration({ className }: { className?: string }) {
               id="ball-5-a"
             >
               <stop stopColor="#eef2ff" offset="0%" />
-              <stop stopColor="#c7d2fe" offset="34.827%" />
-              <stop stopColor="#818cf8" offset="100%" />
+              <stop stopColor="#fde4cc" offset="34.827%" />
+              <stop stopColor="#f79627" offset="100%" />
             </radialGradient>
             <filter
-              x="-500%"
+              x="500%"
               y="-500%"
               width="1000%"
               height="1000%"
@@ -409,7 +409,7 @@ function Illustration({ className }: { className?: string }) {
               <feOffset dx="24" dy="24" in="SourceAlpha" result="shadowOffsetOuter" />
               <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter" result="shadowBlurOuter" />
               <feColorMatrix
-                values="0 0 0 0 0.10 0 0 0 0 0.17 0 0 0 0 0.21 0 0 0 0.22 0"
+                values="0 0 0 0 0.10 0 0 0 0 0.17 0 0 0 0 0.21 0 0 0 0 0.22 0"
                 in="shadowBlurOuter"
               />
             </filter>

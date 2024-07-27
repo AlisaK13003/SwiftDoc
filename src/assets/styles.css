@@ -1439,17 +1439,17 @@ select {
   --tw-border-opacity: 1;
   border-color: rgb(203 213 225 / var(--tw-border-opacity));
 }
-.border-primary-200 {
-  --tw-border-opacity: 1;
-  border-color: rgb(199 210 254 / var(--tw-border-opacity));
-}
-.bg-gray-100 {
+.bg-black {
   --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+  background-color: rgb(4 7 9 / var(--tw-bg-opacity));
+}
+.bg-black2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(35 35 33 / var(--tw-bg-opacity));
 }
 .bg-primary-400 {
   --tw-bg-opacity: 1;
-  background-color: rgb(129 140 248 / var(--tw-bg-opacity));
+  background-color: rgb(250 188 105 / var(--tw-bg-opacity));
 }
 .bg-white {
   --tw-bg-opacity: 1;
@@ -1462,20 +1462,20 @@ select {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 .from-primary-600 {
-  --tw-gradient-from: #4f46e5 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(79 70 229 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-from: #f57c1b var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(245 124 27 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .from-secondary-500 {
-  --tw-gradient-from: #f43f5e var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(244 63 94 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-from: #694b44 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(105 75 68 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .to-primary-400 {
-  --tw-gradient-to: #818cf8 var(--tw-gradient-to-position);
+  --tw-gradient-to: #fabc69 var(--tw-gradient-to-position);
 }
 .to-secondary-400 {
-  --tw-gradient-to: #fb7185 var(--tw-gradient-to-position);
+  --tw-gradient-to: #7e5a53 var(--tw-gradient-to-position);
 }
 .px-4 {
   padding-left: 1rem;
@@ -1797,14 +1797,10 @@ select {
 }
 .open\:border-primary-400[open] {
   --tw-border-opacity: 1;
-  border-color: rgb(129 140 248 / var(--tw-border-opacity));
+  border-color: rgb(250 188 105 / var(--tw-border-opacity));
 }
 .hover\:border-b:hover {
   border-bottom-width: 1px;
-}
-.hover\:border-primary-300:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(165 180 252 / var(--tw-border-opacity));
 }
 @media (min-width: 640px) {
   .sm\:flex-row {

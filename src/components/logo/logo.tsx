@@ -1,37 +1,47 @@
+import React from 'react';
+
 function Logo({ className }: { className?: string }) {
   return (
     <svg
       className={className}
-      width="32"
-      height="32"
-      viewBox="0 0 32 32"
+      width="64"
+      height="64"
+      viewBox="0 -8 64 72" // Adjusted viewBox to provide more space at the top
       xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink"
     >
       <defs>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="logo-b">
-          <stop stopColor="#A8A3F6" offset="0%" />
-          <stop stopColor="#c7d2fe" offset="100%" />
+        <linearGradient id="capGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#8B4513" />
+          <stop offset="100%" stopColor="#A0522D" />
         </linearGradient>
-        <path
-          d="M27.098 7.53l-9.441 9.44a8.084 8.084 0 0 0-.625.702 8 8 0 0 0 12.173 10.377l9.24-9.24A16.02 16.02 0 0 1 39 23c0 8.837-7.163 16-16 16S7 31.837 7 23 14.163 7 23 7c1.416 0 2.79.184 4.098.53z"
-          id="logo-a"
-        />
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="logo-d">
-          <stop stopColor="#c7d2fe" offset="0%" />
-          <stop stopColor="#818cf8" offset="100%" />
+        <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#D2B48C" />
+          <stop offset="100%" stopColor="#DEB887" />
         </linearGradient>
-        <path
-          d="M27.098 7.53l-9.441 9.44a8.084 8.084 0 0 0-.625.702 8 8 0 0 0 12.173 10.377l9.24-9.24A16.02 16.02 0 0 1 39 23c0 8.837-7.163 16-16 16S7 31.837 7 23 14.163 7 23 7c1.416 0 2.79.184 4.098.53z"
-          id="logo-c"
-        />
       </defs>
-      <g transform="translate(-7 -7)" fill="none" fillRule="evenodd">
-        <use fill="url(#logo-b)" transform="rotate(45 23 23)" xlinkHref="#logo-a" />
-        <use fill="url(#logo-d)" transform="scale(-1 1) rotate(45 0 -32.527)" xlinkHref="#logo-c" />
+      <g fill="none" fillRule="evenodd">
+        {/* Acorn cap */}
+        <path
+          d="M32 0C24 0 16 8 16 16H48C48 8 40 0 32 0Z"
+          fill="url(#capGradient)"
+        />
+        {/* Acorn body */}
+        <path
+          d="M16 16C16 28 24 48 32 48C40 48 48 28 48 16H16Z"
+          fill="url(#bodyGradient)"
+        />
+        {/* Acorn stem */}
+        <rect
+          x="33"
+          y="-7"
+          width="4"
+          height="8"
+          fill="#8B4513"
+          transform="rotate(45 32 -4)"
+        />
       </g>
     </svg>
-  )
+  );
 }
 
-export default Logo
+export default Logo;

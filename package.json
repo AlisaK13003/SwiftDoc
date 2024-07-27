@@ -26,7 +26,7 @@
     "lint:fix": "eslint . --fix",
     "predeploy": "$npm_execpath run build",
     "preview": "vite preview",
-    "start": "$npm_execpath run dev",
+    "start": "run-p dev:*",
     "typecheck": "tsc --noEmit",
     "validate": "run-p lint typecheck"
   },
