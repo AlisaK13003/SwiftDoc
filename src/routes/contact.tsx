@@ -1,6 +1,8 @@
 import { Article } from '@/components/article'
 import { Layout } from '@/components/layout'
 import { useState } from 'react'
+// pages/contact.tsx
+
 
 export default function ContactPage() {
   const [githubLink, setGithubLink] = useState('')
